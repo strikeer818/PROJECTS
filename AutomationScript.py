@@ -703,8 +703,8 @@ if args.XLS:
                             worksheet.insert_image(idx, 3, thumbnail)
 
                         if args.FRAMEIO:
-                            frameio_token = 'fio-u--1cjMtcZjpsNsa4INHk06bQp2q-Qq5JtPEYERDtDk1abZxSNR7njIXUE8Os4_zKs'
-                            asset_id = '668597ab-4d15-4104-815c-1723a80432bb'
+                            frameio_token = 'TOKEN'
+                            asset_id = 'ID'
 
                             client = FrameioClient(token=frameio_token)
 
